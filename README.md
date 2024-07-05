@@ -19,7 +19,7 @@ for ratings, and movie_title for movies.
 
  - User and Movie Embeddings: Embeddings for users and movies are learned using TensorFlow's Embedding layers.
 
- * Graph Neural Network Layer: A custom GNNLayer aggregates embeddings based on user-movie interactions.
+ * Graph Neural Network Layer: A custom GNN Layer aggregates embeddings based on user-movie interactions.
 
  + Retrieval Task: The retrieval task is evaluated using top-K metrics to measure recommendation accuracy.
 
